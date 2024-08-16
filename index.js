@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://edtech-website-backend-1.onrender.com",
+		origin:"*",
 		credentials:true,
 	})
 )
